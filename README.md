@@ -1,4 +1,4 @@
-![Pet Store Owner Banner](Pet Store Owner.png)
+![Pet Store Owner Banner](Pet_Store_Owner.png)
 
 ## Project Overview:
 
