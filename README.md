@@ -2,19 +2,18 @@
 
 ## Project Overview:
 
-This project is a data analysis exercise built around a re-world use case where I own a pet store and sell dogs, cats, small rodents, and lizards.
-I created a database table that was used to track pets that are owned by my pet store, then I insert mock data into the database table.
+This project is a data analysis exercise built around a real-world use case where I own a pet store and sell dogs, cats, small rodents, and lizards. I created a database table that was used to track pets that are owned by my pet store, then I inserted mock data into the database table.
 
 **Business Questions**
 
-1. What are all pets that are currently available, and what are their current prices?
+1. What are all the pets that are currently available, and what are their current prices?
 
-2. What if a pet is accidentally mark sold?
+2. What if a pet is accidentally marked sold?
 
-3. What dogs does the pet store have that are younger that 3 years old?
+3. What dogs does the pet store have that are younger than 3 years old?
  
 **What I learned:**
-I gained experience relational databases from stratch that model rea-world business scenarios. I designed tables, define primary and foreign keys, used joins and performed a 'rollback' transaction. Overall I strengthened my knowledge of database design and query writing. I learned how to answer practical business questions through structured data.
+I gained experience with relational databases from scratch that model real-world business scenarios. I designed tables, define primary and foreign keys, used joins and performed a 'rollback' transaction. Overall, I strengthened my knowledge of database design and query writinga and learned how to answer practical business questions through structured data.
 
 ## Skills and Program Used in This Project:
 **Sandbox SQL**
@@ -31,7 +30,7 @@ I gained experience relational databases from stratch that model rea-world busin
 
 ## 1. What are all pets that are currently available, and what are their current prices?
 
-**Create two tables and insert data:** I wrote code in order to create a table and inserted mock data.
+**Create two tables and insert data:** I wrote code to create a table and inserted mock data.
 
 ![Code Pet Inner Join](Code_pets.jpg) 
 ![Code Pet Data](Code_pet_data.jpg)
@@ -54,11 +53,11 @@ I used an 'INNER JOIN' to connect the two tables using a foreign key in 'pets' a
 
 ## 2. What if a pet is accidentally mark 'sold'?
 
-**Begin a transaction** This allows me to make changes that don't save until I say 'commit'. I then performed the accidental availabiliy change.
+**Begin a transaction** This allows me to make changes and won't save until I choose to 'commit'. I then performed the accidental availabiliy change.
 
 ![Rollback Transaction](Rollback_Transaction.jpg)
     
-**Rollback the error** I used the 'Rollback' command, and checked the results before selecting 'commit'.
+**Rollback the error** I used the 'Rollback' command and checked the results before selecting 'commit'.
 
 ![Rollback Full Code](Rollback_FullCode.jpg) 
 
@@ -66,7 +65,7 @@ I used an 'INNER JOIN' to connect the two tables using a foreign key in 'pets' a
 
 ## 3. What dogs does the pet store have that are younger that 3 years old?
 
-I used the logical operators 'AND' and 'WHERE' combine three conditions so that only rows that meet all of them are returned.
+I used the logical operators 'AND' and 'WHERE' to combine three conditions so only rows that meet all of them are returned.
 
 ![Code Dog LT3](Code_DogLT3.jpg)
 
@@ -74,7 +73,7 @@ I used the logical operators 'AND' and 'WHERE' combine three conditions so that 
 
 ![Code Pet LT3](Code_PetLT3.jpg)
 
-**Results I expected:** All available dogs under 3 years old, along with their name, breed, age, and price to return for finding young dogs that can be sold immediately.
+**Results I expected:** All available dogs under 3 years old, along with their name, breed, age, and price are returned. This can be used to find young dogs that can be sold immediately.
 
 ---
 
